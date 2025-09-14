@@ -1,0 +1,11 @@
+-- Made by Asu with <3,
+-- IMPORTANT: Stay under 1 billion so you don't get banned when you join again
+
+---- config ---- config ---- config ---- config ----
+local Money_to_add = 1000 -- this will give you 1K
+local Money_to_remove = 0 -- will remove 0
+
+---- ignore ---- ignore ---- ignore ---- ignore ----
+local trash_multiplier = 100000
+game:GetService("ReplicatedStorage"):WaitForChild("Purchase_Cairo_Crate"):FireServer(-Money_to_add/trash_multiplier)
+game:GetService("ReplicatedStorage"):WaitForChild("Purchase_Cairo_Crate"):FireServer(Money_to_remove/trash_multiplier)
