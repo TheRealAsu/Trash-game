@@ -1,0 +1,7 @@
+-- inf gold script
+
+local args = {
+    "Starter Chest",
+    -math.huge
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("BuyChest"):InvokeServer(unpack(args))
